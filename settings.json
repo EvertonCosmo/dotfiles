@@ -2,7 +2,7 @@
   "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "editor.fontFamily": "'JetBrains Mono'",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontWeight": "normal",
   "editor.lineHeight": 22,
   "editor.formatOnSave": true,
@@ -10,13 +10,51 @@
   "editor.fontSize": 14,
   "editor.letterSpacing": 1.2,
   "editor.tabSize": 2,
-  "editor.rulers": [100, 120],
+  "editor.rulers": [
+    100,
+    120
+  ],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.smoothScrolling": true,
   "prettier.singleQuote": true,
-  "window.zoomLevel": 0,
+  "prettier.trailingComma": "es5",
+  "eslint.packageManager": "yarn",
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "colorize.languages": [
+    "javascript",
+    "typescript",
+    "json",
+    "html",
+    "javascriptreact",
+    "typescriptreact",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "postcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg"
+  ],
+  "window.zoomLevel": -1,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": null,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "launch": {
+
+    "configurations": [],
+    "compounds": []
+  }
 }
